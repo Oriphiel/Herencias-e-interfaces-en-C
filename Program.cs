@@ -11,7 +11,7 @@ namespace Assignement_6
         static void Main(string[] args)
         {
             Student[] students = new Student[3];
-            students[0] = new Student("Arturo Haas", Convert.ToDateTime("27/11/1988"),"TI III A","Nine","adx@hotmail.com", "Garzota 2", "Guayaquil", "Guayas", "Ecuador");
+            students[0] = new Student("Arturo", Convert.ToDateTime("27/11/1900"),"TI III A","Nine","adx@hotmail.com", "Garzota 2", "Guayaquil", "Guayas", "Ecuador");
             students[1] = new Student();
             students[2] = new Student();
             Course course = new Course("Programming with C#");
